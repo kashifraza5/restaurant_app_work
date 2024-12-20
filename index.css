@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes bounce-right {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-bounce-right {
+    animation: bounce-right 0.5s ease-in-out infinite;
+  }
+
+  .uploadlabel1 span{
+      font-size: 75px;
+  }
+
+
+
+  
